@@ -1,0 +1,33 @@
+#Next JS folder structure detailed description
+
+1. .next- This file generates when we build our application. After building Next JS application .next file keeps track of the folder/components
+    by compiling source code and chunk data are also stored in this folder.
+
+2. node-modules- this folder keeps library files of the dependency applied in the project
+
+3. public- In bulding project we may need to keep static assests in our project like Image,Icon and others and those static assests are basically
+   stored in this public directory
+
+4. src/app- In src file we have app directory in which we will mainly work .under app directory there are many files like global.css,layout.JS
+   page.js each of them have specefic uses in building project.
+
+5. app/global.css- This global.css file contains css of the project which can be used globally to the whole project.
+
+6. app/layout.js- layout.js file the provides the root structure of the project. It contains other pages inside its body as children.In master
+   layout concept it holds the other pages. The RootLayout function is the main execution point of the application and beside here we can import
+   external assests in our application by simply importing here .
+
+7. app/page.js- page.js file act as the main/home view file of the next js application. In next js we don not need to create manually homepage
+   for our application beacause next js by default provides it.
+
+8. .gitignore - This file keeps track of git information and decides which file will be pushed or not in the repository.
+
+9. next.config.js- This is a important/critical point of the next js application. If we want to change the default behaviour of the application then we
+   can do it by program in this file.
+
+10. package.json - This file keeps all dependency information which are applicable to the application.
+
+11. tailwind.config.js- This file basically controlls or provides tailwind css service in overall application.we can use varoius tailwind plugin here
+    to get tailwind css frameworks like daisyUI.
+
+   
